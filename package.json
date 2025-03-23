@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "An app that tells the current weather for country",
+  "homepage": "https://github.com/MaryKaratu/Weather-App#readme",
+  "bugs": {
+    "url": "https://github.com/MaryKaratu/Weather-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "githttps://github.com/MaryKaratu/Weather-App.git"
+  },
+  "license": "ISC",
+  "author": "MaryKaratu",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.1"
+  },
+  "dependencies": {
+    "core-js": "^3.41.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
